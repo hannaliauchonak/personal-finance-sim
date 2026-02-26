@@ -12,7 +12,7 @@ st.subheader("Comprehensive stochastic process simulator for your finances!", An
 
 st.sidebar.header("Your Inputs")
 
-initial_wealth = st.sidebar.number_input("Initial wealth ($)", 0, 50_000_000, 10_000, step=1000)
+initial_wealth = st.sidebar.number_input("Initial wealth ($)", 0, 50_000_000, 10_000, step=500)
 years = st.sidebar.slider("Years", 1, 60, 30)
 n_sims = st.sidebar.slider("Simulations", 200, 50_000, 5000, step=200)
 
