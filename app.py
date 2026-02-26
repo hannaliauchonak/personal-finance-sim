@@ -7,7 +7,7 @@ import model
 
 st.set_page_config(page_title="Personal Finance Simulator", layout="wide")
 st.title("Personal Finance Simulator (Roth + 401k + Brokerage)", anchor= False)
-st.subheader("Comprehensive stochastic process simulator for your finances!", anchor= False)
+st.subheader("Stochastic Monte-Carlo simulation of long-term wealth accumulation!", anchor= False)
 
 
 st.sidebar.header("Your Inputs")
