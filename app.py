@@ -6,7 +6,8 @@ import model
 
 
 st.set_page_config(page_title="Personal Finance Simulator", layout="wide")
-st.title("💸 Personal Finance Simulator (Roth + 401k + Brokerage)")
+st.title("Personal Finance Simulator (Roth + 401k + Brokerage)")
+st.subheader("Comprehensive stochastic process simulator for your finances")
 
 st.sidebar.header("Your Inputs")
 
