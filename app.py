@@ -136,7 +136,7 @@ if run:
     plt.legend()
     st.pyplot(fig2)
 
-    st.caption("Note: This simplified model ignores taxes, contribution limits, and match caps (we can add those next).")
+    st.caption("Note: This simplified model ignores taxes, contribution limits, and match caps (those can be added next).")
 else:
     st.info("Set your inputs in the sidebar, then click **Run simulation**.")
 
